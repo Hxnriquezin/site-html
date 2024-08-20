@@ -1,6 +1,6 @@
 body {
-background-color: #e9f5fddc;
-color: rgb(0, 0, 0);
+background-color: #f3d862d5;
+color: rgb(83, 74, 74);
 font-family: 'Courier New', Courier, monospace;
 text-align: center;
 h1 {
@@ -13,6 +13,9 @@ ul{
 li {
     display: inline;
 }
-a :hover:{
-color: rgb(255, 0, 0);
+a:hover{
+color: rgba(35, 206, 49, 0.993);
+}
+img{ 
+max-width: 100%;
 }
