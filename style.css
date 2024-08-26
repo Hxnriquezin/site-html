@@ -1,11 +1,13 @@
 body {
-background-color: #f3d862d5;
+background-color: #0482bdd5;
 color: rgb(83, 74, 74);
 font-family: 'Courier New', Courier, monospace;
 text-align: center;
 h1 {
-color: blue;
+color: #0b1eed;
 }
+
+
 }
 ul{
     list-style-type:none;
@@ -14,8 +16,17 @@ li {
     display: inline;
 }
 a:hover{
-color: rgba(35, 206, 49, 0.993);
+color: rgba(64, 214, 4, 0.993);
 }
 img{ 
 max-width: 100%;
+border-radius: 8px;
+transition: transform 0.2s;
+}
+
+ img:hover {
+    transform: scale(1.05);
+}
+.portifólio {
+    background-color: rgb(255, 218, 124);
 }
